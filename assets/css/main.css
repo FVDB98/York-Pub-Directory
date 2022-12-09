@@ -6,7 +6,6 @@
 
 body{
     font-family: "Secular One";
-    background-color: yellow;
     font-size: 1.6rem;
 }
 
@@ -129,7 +128,7 @@ html{
 
 @media screen and (min-width: 550px){
     body{
-        background-color: red;
+
     }
     .pubs-container{
         display: flex;
@@ -143,25 +142,25 @@ html{
 
 @media screen and (min-width: 620px){
     body{
-        background-color: green;
+
     }
 }
 
 @media screen and (min-width: 768px){
     body{
-        background-color: blue;
+
     }
 }
 
 @media screen and (min-width: 900px){
     body{
-        background-color: purple;
+
     }
 }
 
 @media screen and (min-width: 1024px){
     body{
-        background-color: brown;
+
     }
 }
 
@@ -181,6 +180,6 @@ html{
 
 @media screen and (min-width: 1600px){
     body{
-        background-color: orange;
+
     }
 }
