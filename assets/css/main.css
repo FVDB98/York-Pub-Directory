@@ -203,20 +203,13 @@ html{
     font-size: 20px;
 }
 
-.top-10-content {
-    display: flex;
-    flex-direction: row;
+.top-10-content-peach {
+    padding: 50px 25px;
+    display: block;
     width: 100%;
     background-color: peachpuff;
-    justify-content: space-between;
 }
 
-.intro-image,
-.number-1-text {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-}
 
 .number-1-container{
     display: flex;
@@ -225,15 +218,35 @@ html{
     position: relative;
 }
 
-.minster-inn-image{
-    width: 100%;
-    display: flex;
-    margin: auto;
-    min-width: 300px;
-}
-
 .number-1-text{
     text-align: center;
+}
+
+.top-10-content-white {
+    padding: 0 25px;
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+
+.eagle-and-child{
+    width: 100%;
+}
+
+.number-2-container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.number-2-text{
+    text-align: center;
+}
+
+.minster-image{
+    width: 100%;
 }
 
 
@@ -250,11 +263,6 @@ html{
     .pub {
         width: 48.5%;
     }
-    .number-1-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
 }
 
 @media screen and (min-width: 620px){
@@ -266,11 +274,6 @@ html{
 @media screen and (min-width: 768px){
     body{
 
-    }
-    .number-1-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
     }
 }
 
