@@ -203,6 +203,39 @@ html{
     font-size: 20px;
 }
 
+.top-10-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: peachpuff;
+    justify-content: space-between;
+}
+
+.intro-image,
+.number-1-text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.number-1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.minster-inn-image{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    min-width: 300px;
+}
+
+.number-1-text{
+    text-align: center;
+}
+
 
 
 @media screen and (min-width: 550px){
@@ -217,10 +250,10 @@ html{
     .pub {
         width: 48.5%;
     }
-    .number-1-content{
+    .number-1-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; 
+        justify-content: flex-start;
     }
 }
 
@@ -233,6 +266,11 @@ html{
 @media screen and (min-width: 768px){
     body{
 
+    }
+    .number-1-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
 
